@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Arcana Atlas: curso interativo e quiz sobre hebraico, Rider–Waite–Smith e Cabala Hermética.">
+  <title>Arcana Atlas · Academia Hermética</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script><script src="drawing.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="brand-symbol">✦</div><div><strong>ARCANA <em>ATLAS</em></strong><small>ACADEMIA HERMÉTICA</small></div></div>
+      <div class="sidebar-caption">EXPLORAR</div>
+      <nav id="navigation" aria-label="Navegação principal"></nav>
+      <div class="side-bottom"><div class="side-motto">“Do símbolo à compreensão, da compreensão à prática.”</div><div class="side-credit">Estudo simbólico · Golden Dawn / RWS</div></div>
+    </aside>
+    <div class="main-area"><header class="topbar"><button id="mobile-menu" class="mobile-menu" aria-label="Abrir menu">☰</button><div id="breadcrumb">Biblioteca / Início</div><div class="top-actions"><span class="tiny-glyph">✧</span><span id="top-streak">Seu percurso</span><button class="icon-button" id="theme-toggle" title="Alternar tema" aria-label="Alternar tema">☼</button></div></header>
+      <main id="content" tabindex="-1" aria-live="off"></main>
+      <footer class="footer"><span>ARCANA ATLAS</span><span>Tradições simbólicas ocidentais · conteúdo para estudo, não equivalência universal entre escolas.</span></footer>
+    </div>
+  </div>
+  <div id="modal-root"></div><div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

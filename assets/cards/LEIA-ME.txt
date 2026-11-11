@@ -1,0 +1,3 @@
+As cartas serao salvas nesta pasta pelo arquivo baixar-cartas.cmd.
+Caso a pasta esteja vazia, o aplicativo tenta carregar as 78 imagens do repositorio publico na internet.
+Nomes: ar00.jpg...ar21.jpg; wa01.jpg...wa14.jpg; cu01.jpg...cu14.jpg; sw01.jpg...sw14.jpg; pe01.jpg...pe14.jpg
